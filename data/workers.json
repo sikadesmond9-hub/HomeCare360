@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Mensah",
+    "trade": "Carpenter",
+    "location": "Accra",
+    "rating": 4.7,
+    "bio": "15 years of experience in furniture making and home repairs.",
+    "skills": ["Furniture", "Door Repair", "Roofing", "Cabinets"],
+    "phone": "+233 XX XXX XXXX",
+    "email": "john@example.com",
+    "photo": "images/john.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ama Boateng",
+    "trade": "Electrician",
+    "location": "Kumasi",
+    "rating": 4.9,
+    "bio": "Certified electrician specializing in home wiring and appliance installation.",
+    "skills": ["Wiring", "Lighting", "Generator Repair"],
+    "phone": "+233 XX XXX XXXX",
+    "email": "ama@example.com",
+    "photo": "images/ama.jpg"
+  }
+]
