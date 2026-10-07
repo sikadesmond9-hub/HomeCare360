@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worker Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>🏠 Community Services</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="workers.html">Find Workers</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="profile-container">
+    <div class="profile-header">
+      <img src="images/default-avatar.png" alt="Worker photo" class="profile-photo">
+      <div>
+        <h2 id="worker-name">Loading...</h2>
+        <p class="trade" id="worker-trade"></p>
+        <p>📍 <span id="worker-location"></span></p>
+        <p>⭐ <span id="worker-rating"></span> / 5</p>
+      </div>
+    </div>
+
+    <section class="profile-body">
+      <h3>About</h3>
+      <p id="worker-bio"></p>
+
+      <h3>Skills</h3>
+      <ul id="worker-skills"></ul>
+
+      <h3>Contact</h3>
+      <p>📞 <span id="worker-phone"></span></p>
+      <p>✉️ <span id="worker-email"></span></p>
+      <a href="#" class="btn" id="contact-btn">Request Service</a>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
